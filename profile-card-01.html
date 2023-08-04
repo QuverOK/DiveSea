@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>DiveSea</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@400;500;600&family=Manrope:wght@600;800&family=Outfit:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@600;700&family=Roboto:wght@400;700&family=Urbanist:wght@700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <div class="header__wrapper flex">
+      <a href="index.html" class="logo"><img src="img/header/logo.svg" alt="Logo"></a>
+      <nav class="nav flex" title="Main navigation" data-menu>
+        <ul class="nav__list list-reset flex">
+          <li class="nav__item"><a href="discover.html" class="nav__link nav__link-active">Discover</a></li>
+          <li class="nav__item"><a href="creators.html" class="nav__link">creators</a></li>
+          <li class="nav__item"><a href="sell.html" class="nav__link">Sell</a></li>
+          <li class="nav__item"><a href="stats.html" class="nav__link">stats </a></li>
+        </ul>
+        <form action="#" class="form header__form">
+          <label class="form__label">
+            <input type="text" name="Search Art Work / Creator" class="input-reset form__input"
+              placeholder="Search Art Work / Creator">
+          </label>
+        </form>
+        <a href="connect.html" class="header__button btn">Connect Wallet</a>
+      </nav>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="profile">
+  <div class="container profile__container">
+    <div class="profile__top">
+      <div class="profile__background">
+        <img src="img/profile/background.png" alt="profile cover">
+      </div>
+    </div>
+    <div class="profile__bottom flex">
+      <div class="profile__left card-profile">
+        <div class="card-profile__avatar">
+          <img src="img/profile/avatar.png" alt="Harry" class="card-profile__avatar-person">
+          <img src="img/profile/confirmed.svg" alt="Confirmed" class="card-profile__avatar-confirmed">
+        </div>
+        <div class="card-profile__content">
+          <div class="card-profile__main flex">
+            <div class="card-profile__text">
+              <h2 class="card-profile__title">Harry K.</h2>
+              <p class="card-profile__subtitle">@Harryknft</p>
+            </div>
+            <button type="button" class="card-profile__button btn btn-reset">Follow +</butt>
+          </div>
+          <div class="card-profile__numbers numbers flex">
+            <div class="numbers__item">
+              <h2 class="numbers__title">86 ETH</h2>
+              <p class="numbers__descr">Total Sales</p>
+            </div>
+            <div class="numbers__item">
+              <h2 class="numbers__title">12K</h2>
+              <p class="numbers__descr">Followers</p>
+            </div>
+            <div class="numbers__item">
+              <h2 class="numbers__title">587</h2>
+              <p class="numbers__descr">Followings</p>
+            </div>
+          </div>
+          <div class="card-profile__bio">
+            <div class="card-profile__label">Bio</div>
+            <p class="card-profile__descr">the artist who transforms the intangible into priceless assets with their
+              incredible NFT creations. From stunning visuals to mind-bending concepts,</p>
+          </div>
+          <ul class="card-profile__list-social list-reset flex">
+            <li class="card-profile__item-social">
+              <a href="#" class="card-profile__link-social">
+                <svg width="22" alt="Instagram" height="22" viewBox="0 0 22 22" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M10.7721 0C12.1916 0.0506994 13.6618 0.0506994 15.0812 0.101392C16.3486 0.152085 17.5146 0.354867 18.6299 1.0139C20.0494 1.87572 20.9112 3.14309 21.2154 4.76533C21.3674 5.72853 21.4181 6.74243 21.4688 7.70564C21.5195 9.83483 21.4688 11.964 21.4688 14.0932C21.4688 15.2085 21.4181 16.3238 21.0633 17.3884C20.3535 19.4669 18.8834 20.7342 16.7542 21.1398C15.791 21.3426 14.7771 21.3426 13.8139 21.3933C11.6846 21.444 9.60615 21.3933 7.47694 21.3933C6.36165 21.3933 5.24635 21.3426 4.18176 20.9877C2.10325 20.278 0.835867 18.8078 0.430303 16.6786C0.227525 15.7154 0.227525 14.7015 0.176829 13.7383C0.126131 11.6091 0.176829 9.47996 0.176829 7.35077C0.176829 6.23549 0.227525 5.1202 0.582391 4.05559C1.29213 1.9771 2.76229 0.709734 4.89148 0.304173C5.8547 0.101399 6.8686 0.101399 7.83181 0.0506994C8.79502 0 9.75823 0 10.7721 0ZM19.5426 10.4939C19.4919 10.4939 19.5426 10.4939 19.5426 10.4939C19.4919 9.6321 19.4919 8.82097 19.4919 7.95916C19.4919 7.14805 19.4412 6.33692 19.3398 5.52581C19.137 3.70078 18.0724 2.4841 16.2981 2.12924C15.3855 1.92646 14.3716 1.92646 13.4591 1.92646C11.6341 1.87577 9.85976 1.87577 8.03473 1.92646C7.12222 1.92646 6.2097 1.97715 5.34788 2.12924C3.82702 2.38271 2.76243 3.24453 2.30617 4.76538C2.15408 5.27233 2.10339 5.77928 2.05269 6.28623C2.002 8.21264 2.002 10.139 2.002 12.0655C2.002 13.2821 2.05269 14.5495 2.15408 15.7662C2.30617 17.5912 3.42146 18.8586 5.2465 19.1627C6.159 19.3148 7.12222 19.3655 8.08543 19.3655C9.85976 19.4162 11.6341 19.3655 13.4591 19.3655C14.2703 19.3655 15.0814 19.3148 15.8925 19.2134C16.6529 19.1627 17.3627 18.9093 17.971 18.4023C18.9849 17.5912 19.3398 16.5266 19.3905 15.3099C19.4919 13.7891 19.4919 12.1668 19.5426 10.4939Z" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.2471 10.6962C16.2471 13.7379 13.8137 16.1712 10.772 16.1712C7.73025 16.1712 5.29688 13.7379 5.29688 10.6455C5.29688 7.65453 7.78094 5.22119 10.8227 5.22119C13.8137 5.22119 16.2471 7.65453 16.2471 10.6962ZM10.7719 14.2448C12.6983 14.2448 14.3205 12.6226 14.3205 10.6962C14.3205 8.76976 12.6983 7.14752 10.7719 7.14752C8.79474 7.14752 7.22318 8.76976 7.22318 10.6962C7.17248 12.6226 8.79474 14.2448 10.7719 14.2448Z" />
+                  <path
+                    d="M17.7184 4.96758C17.7184 5.67731 17.1607 6.28566 16.451 6.28566C15.7413 6.28566 15.1329 5.67731 15.1836 4.96758C15.1836 4.25785 15.7413 3.7002 16.451 3.7002C17.1607 3.7002 17.7184 4.25784 17.7184 4.96758Z" />
+                </svg>
+              </a>
+            </li>
+            <li class="card-profile__item-social">
+              <a href="#" class="card-profile__link-social">
+                <svg alt="Linkedin" width="22" height="21" viewBox="0 0 22 21" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M21.633 12.4811V20.3602H17.032V12.9987C17.032 11.1583 16.3994 9.89304 14.7315 9.89304C13.4663 9.89304 12.7186 10.7557 12.3735 11.5609C12.2585 11.8484 12.201 12.251 12.201 12.6536V20.3602H7.60001C7.60001 20.3602 7.65752 7.88013 7.60001 6.61487H12.201V8.57027C12.201 8.57027 12.201 8.62777 12.1435 8.62777H12.201V8.57027C12.8336 7.65008 13.8689 6.26979 16.3419 6.26979C19.3325 6.26979 21.633 8.28271 21.633 12.4811ZM2.88347 0.000976562C1.33063 0.000976562 0.29541 1.03619 0.29541 2.35897C0.29541 3.68174 1.27312 4.71697 2.82595 4.71697H2.88347C4.49381 4.71697 5.47152 3.68175 5.47152 2.35897C5.41401 1.03619 4.4363 0.000976562 2.88347 0.000976562ZM0.526056 20.3602H5.06954V6.61489H0.526056V20.3602Z" />
+                </svg>
+              </a>
+            </li>
+            <li class="card-profile__item-social">
+              <a href="#" class="card-profile__link-social">
+                <svg width="11" alt="Facebook" height="22" viewBox="0 0 11 22" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.95256 10.6695H6.97166V21.338H2.52644V12.415V10.6695H0.43457V6.90414H2.52644V4.4462C2.52644 2.72041 3.36319 0.000976562 6.97166 0.000976562H10.2663V3.66174H7.913C7.54692 3.66174 6.97166 3.87094 6.97166 4.70768V6.90414H10.3186L9.95256 10.6695Z" />
+                </svg>
+              </a>
+            </li>
+            <li class="card-profile__item-social">
+              <a href="#" class="card-profile__link-social">
+                <svg width="22" alt="Twitter" height="19" viewBox="0 0 22 19" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M21.6159 2.82596C20.8126 3.1774 20.0093 3.42842 19.1056 3.52883C20.0093 2.97658 20.7122 2.1231 21.0134 1.11901C20.1599 1.62106 19.2061 1.97249 18.2522 2.1733C17.4489 1.31982 16.2942 0.767578 15.039 0.767578C12.6292 0.767578 10.6712 2.72555 10.6712 5.13537C10.6712 5.48681 10.7214 5.83823 10.7716 6.13947C7.10668 5.93865 3.89356 4.23169 1.73475 1.57085C1.33311 2.22351 1.13229 2.97658 1.13229 3.77985C1.13229 5.28599 1.88536 6.64151 3.09028 7.44478C2.38741 7.44478 1.68455 7.24397 1.08208 6.89253V6.94273C1.08208 9.05133 2.58823 10.8587 4.59643 11.2603C4.24499 11.3607 3.84336 11.4109 3.44171 11.4109C3.14049 11.4109 2.88946 11.3607 2.63844 11.3105C3.19069 13.0677 4.79725 14.3228 6.75524 14.373C5.24909 15.5277 3.39151 16.2306 1.33311 16.2306C0.981677 16.2306 0.630245 16.2306 0.278809 16.1804C2.2368 17.4355 4.49602 18.1383 7.00626 18.1383C15.0893 18.1383 19.4571 11.4611 19.4571 5.68762C19.4571 5.48681 19.4571 5.28599 19.4571 5.13537C20.3106 4.48272 21.0636 3.67944 21.6159 2.82596Z" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="profile__right">
+        <div class="tab profile__tab" data-tabs="tabs">
+          <ul class="tab__nav list-reset flex">
+            <li class="tab__nav-item">
+              <button class="tab__nav-btn tab__nav-btn-collection btn-reset" type="button" data-tab-path="collection">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M19.3141 9.45709C19.3141 10.2648 20.0075 10.922 20.8597 10.922C21.2894 10.922 21.6382 11.2525 21.6382 11.6598V14.3171C21.6382 16.564 19.7096 18.3919 17.3388 18.3919H5.17862C2.80782 18.3919 0.878174 16.564 0.878174 14.3171V11.6598C0.878174 11.2525 1.22694 10.922 1.65668 10.922C2.50991 10.922 3.2033 10.2648 3.2033 9.45709C3.2033 8.67005 2.53794 8.0778 1.65668 8.0778C1.45011 8.0778 1.25289 8.00008 1.10653 7.86137C0.960176 7.72265 0.878174 7.53475 0.878174 7.33995L0.88025 4.59614C0.88025 2.34914 2.80886 0.520264 5.17965 0.520264H17.3367C19.7075 0.520264 21.6372 2.34914 21.6372 4.59614L21.6382 7.25436C21.6382 7.44916 21.5562 7.63804 21.4109 7.77578C21.2645 7.91449 21.0673 7.99221 20.8597 7.99221C20.0075 7.99221 19.3141 8.64939 19.3141 9.45709ZM13.5958 10.0995L14.8196 8.97006C15.0324 8.77527 15.1061 8.488 15.0138 8.22238C14.9224 7.95675 14.6837 7.76786 14.3951 7.72949L12.7042 7.49535L11.9475 6.04326C11.8177 5.79338 11.5541 5.63794 11.2603 5.63695H11.2583C10.9655 5.63695 10.7019 5.7924 10.5701 6.04228L9.81336 7.49535L8.12557 7.72851C7.83389 7.76786 7.59515 7.95675 7.50277 8.22238C7.41143 8.488 7.48513 8.77527 7.69688 8.97006L8.92068 10.0995L8.63212 11.6962C8.58229 11.9716 8.69959 12.2451 8.93833 12.4094C9.07327 12.5009 9.23001 12.5481 9.38882 12.5481C9.51027 12.5481 9.63275 12.5196 9.74485 12.4635L11.2583 11.7099L12.7686 12.4616C13.0301 12.5944 13.3405 12.5737 13.5782 12.4084C13.818 12.2451 13.9353 11.9716 13.8854 11.6962L13.5958 10.0995Z"
+                    fill="none" />
+                </svg>
+                <span>Collection</span>
+              </button>
+            </li>
+            <li class="tab__nav-item tab__nav-item">
+              <button class="tab__nav-btn tab__nav-btn-activity btn-reset" type="button" data-tab-path="activity">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0.714844 9.45615C0.714844 4.47375 4.74951 0.430054 9.74094 0.430054C14.7234 0.430054 18.767 4.47375 18.767 9.45615C18.767 14.4476 14.7234 18.4823 9.74094 18.4823C4.74951 18.4823 0.714844 14.4476 0.714844 9.45615ZM11.7538 11.108L13.2161 6.48661C13.3153 6.1707 13.0265 5.87283 12.7106 5.97212L8.08924 7.4163C7.89969 7.47948 7.74624 7.6239 7.69209 7.81345L6.24791 12.4438C6.14862 12.7507 6.44649 13.0486 6.75337 12.9493L11.3567 11.5051C11.5462 11.451 11.6997 11.2975 11.7538 11.108Z"
+                    fill="none" />
+                </svg>
+                <span>Activity</span>
+              </button>
+            </li>
+          </ul>
+          <div class="tab__content" data-tab-target="collection">
+            <div class="tab__panel">
+              <ul class="tab__list list-reset flex">
+                <li class="tab__item">
+                  <div class="tab__top">
+                    <div class="tab__image">
+                      <img src="img/explore/image-01.png" width="183.837px" width="183.837px" alt="NFT">
+                      <div class="tab__timer">07h 09 m 12s</div>
+                    </div>
+                    <h3 class="tab__title">Sun-Glass</h3>
+                  </div>
+                  <div class="tab__bottom flex">
+                    <div class="tab__left">
+                      <div class="tab__bid">Current bid</div>
+                      <div class="tab__amount">1.75</div>
+                    </div>
+                    <a href="explore-card-01.html" class="tab__button btn">PLACE BID</a>
+                  </div>
+                </li>
+                <li class="tab__item">
+                  <div class="tab__top">
+                    <div class="tab__image">
+                      <img src="img/explore/image-01.png" width="183.837px" width="183.837px" alt="NFT">
+                      <div class="tab__timer">07h 09 m 12s</div>
+                    </div>
+                    <h3 class="tab__title">Sun-Glass</h3>
+                  </div>
+                  <div class="tab__bottom flex">
+                    <div class="tab__left">
+                      <div class="tab__bid">Current bid</div>
+                      <div class="tab__amount">1.75</div>
+                    </div>
+                    <a href="explore-card-01.html" class="tab__button btn">PLACE BID</a>
+                  </div>
+                </li>
+                <li class="tab__item">
+                  <div class="tab__top">
+                    <div class="tab__image">
+                      <img src="img/explore/image-01.png" width="183.837px" width="183.837px" alt="NFT">
+                      <div class="tab__timer">07h 09 m 12s</div>
+                    </div>
+                    <h3 class="tab__title">Sun-Glass</h3>
+                  </div>
+                  <div class="tab__bottom flex">
+                    <div class="tab__left">
+                      <div class="tab__bid">Current bid</div>
+                      <div class="tab__amount">1.75</div>
+                    </div>
+                    <a href="explore-card-01.html" class="tab__button btn">PLACE BID</a>
+                  </div>
+                </li>
+                <li class="tab__item">
+                  <div class="tab__top">
+                    <div class="tab__image">
+                      <img src="img/explore/image-01.png" width="183.837px" width="183.837px" alt="NFT">
+                      <div class="tab__timer">07h 09 m 12s</div>
+                    </div>
+                    <h3 class="tab__title">Sun-Glass</h3>
+                  </div>
+                  <div class="tab__bottom flex">
+                    <div class="tab__left">
+                      <div class="tab__bid">Current bid</div>
+                      <div class="tab__amount">1.75</div>
+                    </div>
+                    <a href="explore-card-01.html" class="tab__button btn">PLACE BID</a>
+                  </div>
+                </li>
+                <li class="tab__item">
+                  <div class="tab__top">
+                    <div class="tab__image">
+                      <img src="img/explore/image-01.png" width="183.837px" width="183.837px" alt="NFT">
+                      <div class="tab__timer">07h 09 m 12s</div>
+                    </div>
+                    <h3 class="tab__title">Sun-Glass</h3>
+                  </div>
+                  <div class="tab__bottom flex">
+                    <div class="tab__left">
+                      <div class="tab__bid">Current bid</div>
+                      <div class="tab__amount">1.75</div>
+                    </div>
+                    <a href="explore-card-01.html" class="tab__button btn">PLACE BID</a>
+                  </div>
+                </li>
+                <li class="tab__item">
+                  <div class="tab__top">
+                    <div class="tab__image">
+                      <img src="img/explore/image-01.png" width="183.837px" width="183.837px" alt="NFT">
+                      <div class="tab__timer">07h 09 m 12s</div>
+                    </div>
+                    <h3 class="tab__title">Sun-Glass</h3>
+                  </div>
+                  <div class="tab__bottom flex">
+                    <div class="tab__left">
+                      <div class="tab__bid">Current bid</div>
+                      <div class="tab__amount">1.75</div>
+                    </div>
+                    <a href="explore-card-01.html" class="tab__button btn">PLACE BID</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab__content" data-tab-target="activity">
+            <div class="tab__panel">
+              <div class="tab__buttons flex">
+                <button class="tab__buttn btn-reset">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <path
+                      d="M6.78175 14.3765H16.3597C16.945 14.3765 17.4239 14.8554 17.4239 15.4407C17.4239 16.026 16.945 16.5049 16.3597 16.5049H5.71754C5.13223 16.5049 4.65333 16.026 4.65333 15.4407V4.79859H2.52491C1.93959 4.79859 1.46069 4.31969 1.46069 3.73438C1.46069 3.14906 1.93959 2.67017 2.52491 2.67017H5.71754C6.30286 2.67017 6.78175 3.14906 6.78175 3.73438V5.8628H20.6165L16.3597 13.3123H6.78175V14.3765ZM6.24965 17.5691C7.13295 17.5691 7.84597 18.2822 7.84597 19.1655C7.84597 20.0488 7.13295 20.7618 6.24965 20.7618C5.36635 20.7618 4.65333 20.0488 4.65333 19.1655C4.65333 18.2822 5.36635 17.5691 6.24965 17.5691ZM15.8276 17.5691C16.7109 17.5691 17.4239 18.2822 17.4239 19.1655C17.4239 20.0488 16.7109 20.7618 15.8276 20.7618C14.9443 20.7618 14.2312 20.0488 14.2312 19.1655C14.2312 18.2822 14.9443 17.5691 15.8276 17.5691Z"
+                      fill="black" />
+                  </svg>
+                  <span>Sales</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 12 6" fill="none">
+                    <path
+                      d="M11.9008 1.31657C11.9012 1.43586 11.8749 1.55372 11.8237 1.6615C11.7726 1.76928 11.698 1.86424 11.6053 1.93939L6.81436 5.79613C6.67148 5.91358 6.49226 5.97778 6.30731 5.97778C6.12236 5.97778 5.94314 5.91358 5.80027 5.79613L1.00928 1.80365C0.846218 1.66811 0.743671 1.47335 0.724204 1.26221C0.704737 1.05106 0.769943 0.840835 0.905479 0.677769C1.04101 0.514702 1.23578 0.412156 1.44692 0.392689C1.65806 0.373222 1.86829 0.438428 2.03136 0.573964L6.3113 4.14325L10.5912 0.693739C10.7085 0.596096 10.8512 0.534071 11.0025 0.515003C11.1539 0.495935 11.3075 0.520623 11.4453 0.586144C11.5831 0.651665 11.6992 0.755279 11.7799 0.884723C11.8606 1.01417 11.9026 1.16403 11.9008 1.31657Z"
+                      fill="black" />
+                  </svg>
+                </button>
+                <button class="tab__buttn btn-reset">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                    <path
+                      d="M20.0487 17.241C20.0487 16.8798 19.9223 16.5729 19.6695 16.3201L16.8524 13.503C16.5996 13.2502 16.2926 13.1238 15.9315 13.1238C15.5523 13.1238 15.2272 13.2683 14.9563 13.5572C14.9834 13.5843 15.0692 13.6678 15.2137 13.8077C15.3581 13.9477 15.4552 14.0448 15.5049 14.0989C15.5545 14.1531 15.6222 14.2389 15.708 14.3563C15.7938 14.4736 15.8525 14.5887 15.8841 14.7016C15.9157 14.8145 15.9315 14.9386 15.9315 15.0741C15.9315 15.4352 15.8051 15.7422 15.5523 15.995C15.2994 16.2478 14.9925 16.3742 14.6313 16.3742C14.4959 16.3742 14.3717 16.3584 14.2589 16.3268C14.146 16.2952 14.0309 16.2365 13.9135 16.1508C13.7961 16.065 13.7104 15.9973 13.6562 15.9476C13.602 15.8979 13.5049 15.8009 13.365 15.6564C13.225 15.512 13.1415 15.4262 13.1144 15.3991C12.8165 15.679 12.6675 16.0086 12.6675 16.3878C12.6675 16.7489 12.7939 17.0559 13.0467 17.3087L15.8367 20.1122C16.0805 20.356 16.3874 20.4779 16.7576 20.4779C17.1188 20.4779 17.4258 20.3605 17.6786 20.1258L19.6695 18.1484C19.9223 17.8956 20.0487 17.5931 20.0487 17.241ZM10.5276 7.69289C10.5276 7.33173 10.4012 7.02475 10.1484 6.77193L7.35849 3.96845C7.10568 3.71563 6.79869 3.58923 6.43753 3.58923C6.0854 3.58923 5.77842 3.71112 5.51658 3.9549L3.5257 5.93224C3.27289 6.18505 3.14648 6.48752 3.14648 6.83965C3.14648 7.20081 3.27289 7.50779 3.5257 7.7606L6.34273 10.5776C6.58651 10.8214 6.8935 10.9433 7.26368 10.9433C7.6429 10.9433 7.96794 10.8034 8.23881 10.5235C8.21172 10.4964 8.12595 10.4129 7.98148 10.2729C7.83702 10.133 7.73996 10.0359 7.6903 9.98173C7.64064 9.92755 7.57292 9.84178 7.48715 9.7244C7.40137 9.60703 7.34269 9.49191 7.31108 9.37904C7.27948 9.26618 7.26368 9.14203 7.26368 9.0066C7.26368 8.64544 7.39009 8.33846 7.6429 8.08565C7.89571 7.83284 8.20269 7.70643 8.56385 7.70643C8.69929 7.70643 8.82343 7.72223 8.9363 7.75383C9.04916 7.78543 9.16428 7.84412 9.28165 7.9299C9.39903 8.01567 9.4848 8.08339 9.53898 8.13305C9.59315 8.18271 9.69021 8.27977 9.83016 8.42423C9.97011 8.5687 10.0536 8.65447 10.0807 8.68156C10.3787 8.40166 10.5276 8.0721 10.5276 7.69289ZM22.649 17.241C22.649 18.3245 22.2653 19.2409 21.4978 19.9903L19.5069 21.9677C18.7575 22.7171 17.8411 23.0918 16.7576 23.0918C15.6651 23.0918 14.7442 22.708 13.9948 21.9406L11.2048 19.1371C10.4554 18.3877 10.0807 17.4712 10.0807 16.3878C10.0807 15.2772 10.478 14.3337 11.2725 13.5572L10.0807 12.3654C9.30422 13.1599 8.36521 13.5572 7.26368 13.5572C6.18021 13.5572 5.25926 13.178 4.50082 12.4195L1.68379 9.60251C0.925359 8.84408 0.546143 7.92313 0.546143 6.83965C0.546143 5.75618 0.929873 4.83974 1.69733 4.09034L3.68822 2.113C4.43762 1.36359 5.35406 0.988892 6.43753 0.988892C7.53004 0.988892 8.45099 1.37262 9.20039 2.14008L11.9903 4.94357C12.7397 5.69298 13.1144 6.60941 13.1144 7.69289C13.1144 8.80345 12.7172 9.74697 11.9226 10.5235L13.1144 11.7153C13.8909 10.9207 14.8299 10.5235 15.9315 10.5235C17.0149 10.5235 17.9359 10.9027 18.6943 11.6611L21.5114 14.4781C22.2698 15.2366 22.649 16.1575 22.649 17.241Z"
+                      fill="black" />
+                  </svg>
+                  <span>All Chains</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 12 6" fill="none">
+                    <path
+                      d="M11.8694 1.17326C11.8698 1.29255 11.8435 1.41041 11.7924 1.51819C11.7412 1.62597 11.6666 1.72093 11.574 1.79608L6.78299 5.65282C6.64011 5.77027 6.46089 5.83447 6.27594 5.83447C6.09099 5.83447 5.91177 5.77027 5.76889 5.65282L0.977912 1.66034C0.814845 1.5248 0.712299 1.33004 0.692832 1.1189C0.673365 0.907754 0.738571 0.697525 0.874107 0.534458C1.00964 0.371392 1.20441 0.268846 1.41555 0.249379C1.62669 0.229911 1.83692 0.295118 1.99999 0.430654L6.27993 3.99994L10.5599 0.550428C10.6771 0.452786 10.8198 0.39076 10.9712 0.371693C11.1225 0.352625 11.2762 0.377312 11.4139 0.442833C11.5517 0.508355 11.6678 0.611968 11.7485 0.741412C11.8292 0.870857 11.8712 1.02072 11.8694 1.17326Z"
+                      fill="black" />
+                  </svg>
+                </button>
+              </div>
+              <ul class="tab__catalogue list-reset flex">
+                <li class="tab__piece">
+                  <div class="tab__name flex">
+                    <div class="tab__corner flex">
+                      <div class="tab__picture">
+                        <img src="img/profile/avatar-activity-01.png" width="64.312px" height="67.952px"
+                          alt="avatar NeuVey">
+                      </div>
+                      <div class="tab__text">
+                        <div class="tab__label">NeuVey</div>
+                        <div class="tab__sublabel flex">
+                          <span>JenifferS</span>
+                          <img src="img/profile/confirmed-01.svg" alt="confirmed">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab__corner flex">
+                      <div class="tab__num flex">
+                        <div class="tab__sale tab__sale-green">Sale</div>
+                        <div class="tab__eth">16,4</div>
+                        <div class="tab__time">6 Minutes ago</div>
+                      </div>
+                      <button class="tab__adv btn-reset">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                          <path
+                            d="M10.1598 1.73409C10.1602 1.8377 10.1373 1.94007 10.0929 2.03368C10.0485 2.12729 9.98371 2.20976 9.90327 2.27503L5.74332 5.6247C5.61927 5.72671 5.46365 5.78247 5.30306 5.78247C5.14247 5.78247 4.98686 5.72671 4.8628 5.6247L0.702857 2.15713C0.561269 2.03942 0.472229 1.87026 0.455326 1.68688C0.438423 1.50349 0.495041 1.3209 0.612725 1.17928C0.730409 1.03765 0.899519 0.948586 1.08285 0.931679C1.26618 0.914771 1.44872 0.971405 1.59031 1.08912L5.30653 4.18913L9.02275 1.19315C9.12452 1.10834 9.24844 1.05447 9.37986 1.03791C9.51128 1.02135 9.64469 1.04279 9.76431 1.0997C9.88393 1.15661 9.98474 1.2466 10.0548 1.35902C10.1249 1.47145 10.1613 1.6016 10.1598 1.73409Z"
+                            fill="black" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="tab__counts flex">
+                    <div class="tab__usd">
+                      <p class="tab__subtitle">USD Price</p>
+                      <p class="tab__count">$19K</p>
+                    </div>
+                    <div class="tab__quantity">
+                      <p class="tab__subtitle">Quantity</p>
+                      <p class="tab__count">14.9K</p>
+                    </div>
+                    <div class="tab__floor">
+                      <p class="tab__subtitle">floor price</p>
+                      <p class="tab__count">16,4</p>
+                    </div>
+                    <div class="tab__traded">
+                      <p class="tab__subtitle">traded</p>
+                      <p class="tab__count">26,4</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="tab__piece">
+                  <div class="tab__name flex">
+                    <div class="tab__corner flex">
+                      <div class="tab__picture">
+                        <img src="img/profile/avatar-activity-01.png" width="64.312px" height="67.952px"
+                          alt="avatar NeuVey">
+                      </div>
+                      <div class="tab__text">
+                        <div class="tab__label">NeuVey</div>
+                        <div class="tab__sublabel flex">
+                          <span>JenifferS</span>
+                          <img src="img/profile/confirmed-01.svg" alt="confirmed">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab__corner flex">
+                      <div class="tab__num flex">
+                        <div class="tab__sale tab__sale-green">Sale</div>
+                        <div class="tab__eth">16,4</div>
+                        <div class="tab__time">6 Minutes ago</div>
+                      </div>
+                      <button class="tab__adv btn-reset">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                          <path
+                            d="M10.1598 1.73409C10.1602 1.8377 10.1373 1.94007 10.0929 2.03368C10.0485 2.12729 9.98371 2.20976 9.90327 2.27503L5.74332 5.6247C5.61927 5.72671 5.46365 5.78247 5.30306 5.78247C5.14247 5.78247 4.98686 5.72671 4.8628 5.6247L0.702857 2.15713C0.561269 2.03942 0.472229 1.87026 0.455326 1.68688C0.438423 1.50349 0.495041 1.3209 0.612725 1.17928C0.730409 1.03765 0.899519 0.948586 1.08285 0.931679C1.26618 0.914771 1.44872 0.971405 1.59031 1.08912L5.30653 4.18913L9.02275 1.19315C9.12452 1.10834 9.24844 1.05447 9.37986 1.03791C9.51128 1.02135 9.64469 1.04279 9.76431 1.0997C9.88393 1.15661 9.98474 1.2466 10.0548 1.35902C10.1249 1.47145 10.1613 1.6016 10.1598 1.73409Z"
+                            fill="black" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="tab__counts flex">
+                    <div class="tab__usd">
+                      <p class="tab__subtitle">USD Price</p>
+                      <p class="tab__count">$19K</p>
+                    </div>
+                    <div class="tab__quantity">
+                      <p class="tab__subtitle">Quantity</p>
+                      <p class="tab__count">14.9K</p>
+                    </div>
+                    <div class="tab__floor">
+                      <p class="tab__subtitle">floor price</p>
+                      <p class="tab__count">16,4</p>
+                    </div>
+                    <div class="tab__traded">
+                      <p class="tab__subtitle">traded</p>
+                      <p class="tab__count">26,4</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__top">
+      <div class="footer__top-main flex">
+        <a class="footer__logo flex"><img src="img/footer/footer-logo.svg" alt="DiveSea logo"><span>DiveSea</span></a>
+        <ul class="footer__list list-reset flex">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Privacy Policy</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Term & Conditions</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">About Us</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contact</a>
+          </li>
+        </ul>
+        <ul class="footer__list-social-first list-reset flex">
+          <li class="footer__item-social">
+            <a href="#" class="footer__link-social">
+              <svg width="22" alt="Instagram" height="22" viewBox="0 0 22 22" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M10.7721 0C12.1916 0.0506994 13.6618 0.0506994 15.0812 0.101392C16.3486 0.152085 17.5146 0.354867 18.6299 1.0139C20.0494 1.87572 20.9112 3.14309 21.2154 4.76533C21.3674 5.72853 21.4181 6.74243 21.4688 7.70564C21.5195 9.83483 21.4688 11.964 21.4688 14.0932C21.4688 15.2085 21.4181 16.3238 21.0633 17.3884C20.3535 19.4669 18.8834 20.7342 16.7542 21.1398C15.791 21.3426 14.7771 21.3426 13.8139 21.3933C11.6846 21.444 9.60615 21.3933 7.47694 21.3933C6.36165 21.3933 5.24635 21.3426 4.18176 20.9877C2.10325 20.278 0.835867 18.8078 0.430303 16.6786C0.227525 15.7154 0.227525 14.7015 0.176829 13.7383C0.126131 11.6091 0.176829 9.47996 0.176829 7.35077C0.176829 6.23549 0.227525 5.1202 0.582391 4.05559C1.29213 1.9771 2.76229 0.709734 4.89148 0.304173C5.8547 0.101399 6.8686 0.101399 7.83181 0.0506994C8.79502 0 9.75823 0 10.7721 0ZM19.5426 10.4939C19.4919 10.4939 19.5426 10.4939 19.5426 10.4939C19.4919 9.6321 19.4919 8.82097 19.4919 7.95916C19.4919 7.14805 19.4412 6.33692 19.3398 5.52581C19.137 3.70078 18.0724 2.4841 16.2981 2.12924C15.3855 1.92646 14.3716 1.92646 13.4591 1.92646C11.6341 1.87577 9.85976 1.87577 8.03473 1.92646C7.12222 1.92646 6.2097 1.97715 5.34788 2.12924C3.82702 2.38271 2.76243 3.24453 2.30617 4.76538C2.15408 5.27233 2.10339 5.77928 2.05269 6.28623C2.002 8.21264 2.002 10.139 2.002 12.0655C2.002 13.2821 2.05269 14.5495 2.15408 15.7662C2.30617 17.5912 3.42146 18.8586 5.2465 19.1627C6.159 19.3148 7.12222 19.3655 8.08543 19.3655C9.85976 19.4162 11.6341 19.3655 13.4591 19.3655C14.2703 19.3655 15.0814 19.3148 15.8925 19.2134C16.6529 19.1627 17.3627 18.9093 17.971 18.4023C18.9849 17.5912 19.3398 16.5266 19.3905 15.3099C19.4919 13.7891 19.4919 12.1668 19.5426 10.4939Z" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.2471 10.6962C16.2471 13.7379 13.8137 16.1712 10.772 16.1712C7.73025 16.1712 5.29688 13.7379 5.29688 10.6455C5.29688 7.65453 7.78094 5.22119 10.8227 5.22119C13.8137 5.22119 16.2471 7.65453 16.2471 10.6962ZM10.7719 14.2448C12.6983 14.2448 14.3205 12.6226 14.3205 10.6962C14.3205 8.76976 12.6983 7.14752 10.7719 7.14752C8.79474 7.14752 7.22318 8.76976 7.22318 10.6962C7.17248 12.6226 8.79474 14.2448 10.7719 14.2448Z" />
+                <path
+                  d="M17.7184 4.96758C17.7184 5.67731 17.1607 6.28566 16.451 6.28566C15.7413 6.28566 15.1329 5.67731 15.1836 4.96758C15.1836 4.25785 15.7413 3.7002 16.451 3.7002C17.1607 3.7002 17.7184 4.25784 17.7184 4.96758Z" />
+              </svg>
+          </li>
+          <li class="footer__item-social">
+            <a href="#" class="footer__link-social">
+              <svg alt="Linkedin" width="22" height="21" viewBox="0 0 22 21" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M21.633 12.4811V20.3602H17.032V12.9987C17.032 11.1583 16.3994 9.89304 14.7315 9.89304C13.4663 9.89304 12.7186 10.7557 12.3735 11.5609C12.2585 11.8484 12.201 12.251 12.201 12.6536V20.3602H7.60001C7.60001 20.3602 7.65752 7.88013 7.60001 6.61487H12.201V8.57027C12.201 8.57027 12.201 8.62777 12.1435 8.62777H12.201V8.57027C12.8336 7.65008 13.8689 6.26979 16.3419 6.26979C19.3325 6.26979 21.633 8.28271 21.633 12.4811ZM2.88347 0.000976562C1.33063 0.000976562 0.29541 1.03619 0.29541 2.35897C0.29541 3.68174 1.27312 4.71697 2.82595 4.71697H2.88347C4.49381 4.71697 5.47152 3.68175 5.47152 2.35897C5.41401 1.03619 4.4363 0.000976562 2.88347 0.000976562ZM0.526056 20.3602H5.06954V6.61489H0.526056V20.3602Z" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item-social">
+            <a href="#" class="footer__link-social">
+              <svg width="11" alt="Facebook" height="22" viewBox="0 0 11 22" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M9.95256 10.6695H6.97166V21.338H2.52644V12.415V10.6695H0.43457V6.90414H2.52644V4.4462C2.52644 2.72041 3.36319 0.000976562 6.97166 0.000976562H10.2663V3.66174H7.913C7.54692 3.66174 6.97166 3.87094 6.97166 4.70768V6.90414H10.3186L9.95256 10.6695Z" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item-social">
+            <a href="#" class="footer__link-social">
+              <svg width="22" alt="Twitter" height="19" viewBox="0 0 22 19" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M21.6159 2.82596C20.8126 3.1774 20.0093 3.42842 19.1056 3.52883C20.0093 2.97658 20.7122 2.1231 21.0134 1.11901C20.1599 1.62106 19.2061 1.97249 18.2522 2.1733C17.4489 1.31982 16.2942 0.767578 15.039 0.767578C12.6292 0.767578 10.6712 2.72555 10.6712 5.13537C10.6712 5.48681 10.7214 5.83823 10.7716 6.13947C7.10668 5.93865 3.89356 4.23169 1.73475 1.57085C1.33311 2.22351 1.13229 2.97658 1.13229 3.77985C1.13229 5.28599 1.88536 6.64151 3.09028 7.44478C2.38741 7.44478 1.68455 7.24397 1.08208 6.89253V6.94273C1.08208 9.05133 2.58823 10.8587 4.59643 11.2603C4.24499 11.3607 3.84336 11.4109 3.44171 11.4109C3.14049 11.4109 2.88946 11.3607 2.63844 11.3105C3.19069 13.0677 4.79725 14.3228 6.75524 14.373C5.24909 15.5277 3.39151 16.2306 1.33311 16.2306C0.981677 16.2306 0.630245 16.2306 0.278809 16.1804C2.2368 17.4355 4.49602 18.1383 7.00626 18.1383C15.0893 18.1383 19.4571 11.4611 19.4571 5.68762C19.4571 5.48681 19.4571 5.28599 19.4571 5.13537C20.3106 4.48272 21.0636 3.67944 21.6159 2.82596Z" />
+              </svg></a>
+          </li>
+        </ul>
+      </div>
+      <ul class="footer__list-second list-reset flex">
+        <li class="footer__item">
+          <a href="#" class="footer__link">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Term & Conditions</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">About Us</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__bottom flex">
+      <div class="footer__copy">© 2023 EATLY All Rights Reserved.</div>
+      <ul class="footer__list-social list-reset flex">
+        <li class="footer__item-social">
+          <a href="#" class="footer__link-social">
+            <svg width="22" alt="Instagram" height="22" viewBox="0 0 22 22" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M10.7721 0C12.1916 0.0506994 13.6618 0.0506994 15.0812 0.101392C16.3486 0.152085 17.5146 0.354867 18.6299 1.0139C20.0494 1.87572 20.9112 3.14309 21.2154 4.76533C21.3674 5.72853 21.4181 6.74243 21.4688 7.70564C21.5195 9.83483 21.4688 11.964 21.4688 14.0932C21.4688 15.2085 21.4181 16.3238 21.0633 17.3884C20.3535 19.4669 18.8834 20.7342 16.7542 21.1398C15.791 21.3426 14.7771 21.3426 13.8139 21.3933C11.6846 21.444 9.60615 21.3933 7.47694 21.3933C6.36165 21.3933 5.24635 21.3426 4.18176 20.9877C2.10325 20.278 0.835867 18.8078 0.430303 16.6786C0.227525 15.7154 0.227525 14.7015 0.176829 13.7383C0.126131 11.6091 0.176829 9.47996 0.176829 7.35077C0.176829 6.23549 0.227525 5.1202 0.582391 4.05559C1.29213 1.9771 2.76229 0.709734 4.89148 0.304173C5.8547 0.101399 6.8686 0.101399 7.83181 0.0506994C8.79502 0 9.75823 0 10.7721 0ZM19.5426 10.4939C19.4919 10.4939 19.5426 10.4939 19.5426 10.4939C19.4919 9.6321 19.4919 8.82097 19.4919 7.95916C19.4919 7.14805 19.4412 6.33692 19.3398 5.52581C19.137 3.70078 18.0724 2.4841 16.2981 2.12924C15.3855 1.92646 14.3716 1.92646 13.4591 1.92646C11.6341 1.87577 9.85976 1.87577 8.03473 1.92646C7.12222 1.92646 6.2097 1.97715 5.34788 2.12924C3.82702 2.38271 2.76243 3.24453 2.30617 4.76538C2.15408 5.27233 2.10339 5.77928 2.05269 6.28623C2.002 8.21264 2.002 10.139 2.002 12.0655C2.002 13.2821 2.05269 14.5495 2.15408 15.7662C2.30617 17.5912 3.42146 18.8586 5.2465 19.1627C6.159 19.3148 7.12222 19.3655 8.08543 19.3655C9.85976 19.4162 11.6341 19.3655 13.4591 19.3655C14.2703 19.3655 15.0814 19.3148 15.8925 19.2134C16.6529 19.1627 17.3627 18.9093 17.971 18.4023C18.9849 17.5912 19.3398 16.5266 19.3905 15.3099C19.4919 13.7891 19.4919 12.1668 19.5426 10.4939Z" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.2471 10.6962C16.2471 13.7379 13.8137 16.1712 10.772 16.1712C7.73025 16.1712 5.29688 13.7379 5.29688 10.6455C5.29688 7.65453 7.78094 5.22119 10.8227 5.22119C13.8137 5.22119 16.2471 7.65453 16.2471 10.6962ZM10.7719 14.2448C12.6983 14.2448 14.3205 12.6226 14.3205 10.6962C14.3205 8.76976 12.6983 7.14752 10.7719 7.14752C8.79474 7.14752 7.22318 8.76976 7.22318 10.6962C7.17248 12.6226 8.79474 14.2448 10.7719 14.2448Z" />
+              <path
+                d="M17.7184 4.96758C17.7184 5.67731 17.1607 6.28566 16.451 6.28566C15.7413 6.28566 15.1329 5.67731 15.1836 4.96758C15.1836 4.25785 15.7413 3.7002 16.451 3.7002C17.1607 3.7002 17.7184 4.25784 17.7184 4.96758Z" />
+            </svg>
+          </a>
+        </li>
+        <li class="footer__item-social">
+          <a href="#" class="footer__link-social">
+            <svg alt="Linkedin" width="22" height="21" viewBox="0 0 22 21" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M21.633 12.4811V20.3602H17.032V12.9987C17.032 11.1583 16.3994 9.89304 14.7315 9.89304C13.4663 9.89304 12.7186 10.7557 12.3735 11.5609C12.2585 11.8484 12.201 12.251 12.201 12.6536V20.3602H7.60001C7.60001 20.3602 7.65752 7.88013 7.60001 6.61487H12.201V8.57027C12.201 8.57027 12.201 8.62777 12.1435 8.62777H12.201V8.57027C12.8336 7.65008 13.8689 6.26979 16.3419 6.26979C19.3325 6.26979 21.633 8.28271 21.633 12.4811ZM2.88347 0.000976562C1.33063 0.000976562 0.29541 1.03619 0.29541 2.35897C0.29541 3.68174 1.27312 4.71697 2.82595 4.71697H2.88347C4.49381 4.71697 5.47152 3.68175 5.47152 2.35897C5.41401 1.03619 4.4363 0.000976562 2.88347 0.000976562ZM0.526056 20.3602H5.06954V6.61489H0.526056V20.3602Z" />
+            </svg>
+          </a>
+        </li>
+        <li class="footer__item-social">
+          <a href="#" class="footer__link-social">
+            <svg width="11" alt="Facebook" height="22" viewBox="0 0 11 22" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M9.95256 10.6695H6.97166V21.338H2.52644V12.415V10.6695H0.43457V6.90414H2.52644V4.4462C2.52644 2.72041 3.36319 0.000976562 6.97166 0.000976562H10.2663V3.66174H7.913C7.54692 3.66174 6.97166 3.87094 6.97166 4.70768V6.90414H10.3186L9.95256 10.6695Z" />
+            </svg>
+          </a>
+        </li>
+        <li class="footer__item-social">
+          <a href="#" class="footer__link-social">
+            <svg width="22" alt="Twitter" height="19" viewBox="0 0 22 19" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M21.6159 2.82596C20.8126 3.1774 20.0093 3.42842 19.1056 3.52883C20.0093 2.97658 20.7122 2.1231 21.0134 1.11901C20.1599 1.62106 19.2061 1.97249 18.2522 2.1733C17.4489 1.31982 16.2942 0.767578 15.039 0.767578C12.6292 0.767578 10.6712 2.72555 10.6712 5.13537C10.6712 5.48681 10.7214 5.83823 10.7716 6.13947C7.10668 5.93865 3.89356 4.23169 1.73475 1.57085C1.33311 2.22351 1.13229 2.97658 1.13229 3.77985C1.13229 5.28599 1.88536 6.64151 3.09028 7.44478C2.38741 7.44478 1.68455 7.24397 1.08208 6.89253V6.94273C1.08208 9.05133 2.58823 10.8587 4.59643 11.2603C4.24499 11.3607 3.84336 11.4109 3.44171 11.4109C3.14049 11.4109 2.88946 11.3607 2.63844 11.3105C3.19069 13.0677 4.79725 14.3228 6.75524 14.373C5.24909 15.5277 3.39151 16.2306 1.33311 16.2306C0.981677 16.2306 0.630245 16.2306 0.278809 16.1804C2.2368 17.4355 4.49602 18.1383 7.00626 18.1383C15.0893 18.1383 19.4571 11.4611 19.4571 5.68762C19.4571 5.48681 19.4571 5.28599 19.4571 5.13537C20.3106 4.48272 21.0636 3.67944 21.6159 2.82596Z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+  </div>
+</body>
+
+</html>

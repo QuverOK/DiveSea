@@ -1,0 +1,14 @@
+<svg width="24" height="11" viewBox="0 0 24 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="dots-vertical" clip-path="url(#clip0_4_2136)">
+<g id="Group">
+<path id="Vector" d="M11 5.61539C11 5.8616 11.4477 6.06119 12 6.06119C12.5523 6.06119 13 5.8616 13 5.61539C13 5.36918 12.5523 5.16959 12 5.16959C11.4477 5.16959 11 5.36918 11 5.61539Z" stroke="#CBD5E0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M4 5.61539C4 5.8616 4.44772 6.06119 5 6.06119C5.55228 6.06119 6 5.8616 6 5.61539C6 5.36918 5.55228 5.16959 5 5.16959C4.44772 5.16959 4 5.36918 4 5.61539Z" stroke="#CBD5E0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M18 5.61539C18 5.8616 18.4477 6.06119 19 6.06119C19.5523 6.06119 20 5.8616 20 5.61539C20 5.36918 19.5523 5.16959 19 5.16959C18.4477 5.16959 18 5.36918 18 5.61539Z" stroke="#CBD5E0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_4_2136">
+<rect width="10.6993" height="24" fill="white" transform="translate(24 0.265747) rotate(90)"/>
+</clipPath>
+</defs>
+</svg>

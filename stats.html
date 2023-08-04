@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>DiveSea</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@400;500;600&family=Manrope:wght@600;800&family=Outfit:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@600;700&family=Roboto:wght@400;700&family=Urbanist:wght@700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <div class="header__wrapper flex">
+      <a href="index.html" class="logo"><img src="img/header/logo.svg" alt="Logo"></a>
+      <nav class="nav flex" title="Main navigation" data-menu>
+        <ul class="nav__list list-reset flex">
+          <li class="nav__item"><a href="discover.html" class="nav__link">Discover</a></li>
+          <li class="nav__item"><a href="creators.html" class="nav__link">creators</a></li>
+          <li class="nav__item"><a href="sell.html" class="nav__link">Sell</a></li>
+          <li class="nav__item"><a href="stats.html" class="nav__link nav__link-active">stats</a></li>
+        </ul>
+        <form action="#" class="form header__form">
+          <label class="form__label">
+            <input type="text" name="Search Art Work / Creator" class="input-reset form__input"
+              placeholder="Search Art Work / Creator">
+          </label>
+        </form>
+        <a href="connect.html" class="header__button btn">Connect Wallet</a>
+      </nav>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="stats">
+  <div class="container flex stats__container">
+    <h2 class="stats__title">Leaderboard NFTs</h2>
+    <div class="stats-tabs flex" data-tabs="stats-tabs">
+      <ul class="stats-tabs__nav flex list-reset">
+        <li class="stats-tabs__nav-item">
+          <button class="stats-tabs__nav-btn btn stats-tabs__nav-btn-category" type="button"
+            data-stats-tabs-path="category">Category</button>
+        </li>
+        <li class="stats-tabs__nav-item">
+          <button class="stats-tabs__nav-btn btn stats-tabs__nav-btn-collection" type="button"
+            data-stats-tabs-path="collection">Collection</button>
+        </li>
+        <li class="stats-tabs__nav-item">
+          <button class="stats-tabs__nav-btn btn stats-tabs__nav-btn-price" type="button"
+            data-stats-tabs-path="price">Price</button>
+        </li>
+      </ul>
+      <div class="stats-tabs__content" data-stats-tabs-target="category">
+        <div class="stats-tabs__panel">
+          <table class="stats__table table-stats">
+            <!-- table header -->
+            <thead class="table-stats__header">
+              <tr class="table-stats__string-header">
+                <th colspan="3" class="table-stats__header-name">
+                  Collection
+                </th>
+                <th class="table-stats__header-volume">Volume</th>
+                <th class="table-stats__header-24h">24h %</th>
+                <th class="table-stats__header-price">Floor Price</th>
+                <th class="table-stats__header-owners">Owners</th>
+                <th class="table-stats__header-items">Items</th>
+              </tr>
+            </thead>
+            <!-- ---------------- -->
+            <tbody class="table-stats__body">
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-stats__button-more">
+            <button class="table-stats__btn btn">Show more</button>
+          </div>
+        </div>
+      </div>
+      <div class="stats-tabs__content" data-stats-tabs-target="collection">
+        <div class="stats-tabs__panel">
+          <table class="stats__table table-stats">
+            <!-- table header -->
+            <thead class="table-stats__header">
+              <tr class="table-stats__string-header">
+                <th colspan="3" class="table-stats__header-name">
+                  Collection
+                </th>
+                <th class="table-stats__header-volume">Volume</th>
+                <th class="table-stats__header-24h">24h %</th>
+                <th class="table-stats__header-price">Floor Price</th>
+                <th class="table-stats__header-owners">Owners</th>
+                <th class="table-stats__header-items">Items</th>
+              </tr>
+            </thead>
+            <!-- ---------------- -->
+            <tbody class="table-stats__body">
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-stats__button-more">
+            <button class="table-stats__btn btn">Show more</button>
+          </div>
+        </div>
+      </div>
+      <div class="stats-tabs__content" data-stats-tabs-target="price">
+        <div class="stats-tabs__panel">
+          <table class="stats__table table-stats">
+            <!-- table header -->
+            <thead class="table-stats__header">
+              <tr class="table-stats__string-header">
+                <th colspan="3" class="table-stats__header-name">
+                  Collection
+                </th>
+                <th class="table-stats__header-volume">Volume</th>
+                <th class="table-stats__header-24h">24h %</th>
+                <th class="table-stats__header-price">Floor Price</th>
+                <th class="table-stats__header-owners">Owners</th>
+                <th class="table-stats__header-items">Items</th>
+              </tr>
+            </thead>
+            <!-- ---------------- -->
+            <tbody class="table-stats__body">
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-01.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">3,5</td>
+                <td class="table-stats__owners">2.2K</td>
+                <td class="table-stats__items">500</td>
+              </tr>
+              <tr class="table-stats__string">
+                <td colspan="3" class="table-stats__name">
+                  <div class="table-stats__name-container flex">
+                    <a href="profile-card-01.html" class="table-stats__image"><img src="img/collection/avatar-02.png"
+                        width="80px" height="141px" alt="avatar"></a>
+                    <div class="table-stats__text">
+                      <div class="table-stats__label">Alex Ca</div>
+                      <div class="table-stats__author">By Alex</div>
+                    </div>
+                </td>
+                <td class="table-stats__item-volume">
+                  <div class="table-stats__volume">8,456</div>
+                  <div class="table-stats__24h-volume">+ 27,78%</div>
+                </td>
+                <td class="table-stats__24h">+ 27,78%</td>
+                <td class="table-stats__price">7,9</td>
+                <td class="table-stats__owners">3.4K</td>
+                <td class="table-stats__items">900</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-stats__button-more">
+            <button class="table-stats__btn btn">Show more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__top">
+      <div class="footer__top-main flex">
+        <a class="footer__logo flex"><img src="img/footer/footer-logo.svg" alt="DiveSea logo"><span>DiveSea</span></a>
+        <ul class="footer__list list-reset flex">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Privacy Policy</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Term & Conditions</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">About Us</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contact</a>
+          </li>
+        </ul>
+        <ul class="footer__list-social-first list-reset flex">
+          <li class="footer__item-social">
+            <a href="#" class="footer__link-social">
+              <svg width="22" alt="Instagram" height="22" viewBox="0 0 22 22" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M10.7721 0C12.1916 0.0506994 13.6618 0.0506994 15.0812 0.101392C16.3486 0.152085 17.5146 0.354867 18.6299 1.0139C20.0494 1.87572 20.9112 3.14309 21.2154 4.76533C21.3674 5.72853 21.4181 6.74243 21.4688 7.70564C21.5195 9.83483 21.4688 11.964 21.4688 14.0932C21.4688 15.2085 21.4181 16.3238 21.0633 17.3884C20.3535 19.4669 18.8834 20.7342 16.7542 21.1398C15.791 21.3426 14.7771 21.3426 13.8139 21.3933C11.6846 21.444 9.60615 21.3933 7.47694 21.3933C6.36165 21.3933 5.24635 21.3426 4.18176 20.9877C2.10325 20.278 0.835867 18.8078 0.430303 16.6786C0.227525 15.7154 0.227525 14.7015 0.176829 13.7383C0.126131 11.6091 0.176829 9.47996 0.176829 7.35077C0.176829 6.23549 0.227525 5.1202 0.582391 4.05559C1.29213 1.9771 2.76229 0.709734 4.89148 0.304173C5.8547 0.101399 6.8686 0.101399 7.83181 0.0506994C8.79502 0 9.75823 0 10.7721 0ZM19.5426 10.4939C19.4919 10.4939 19.5426 10.4939 19.5426 10.4939C19.4919 9.6321 19.4919 8.82097 19.4919 7.95916C19.4919 7.14805 19.4412 6.33692 19.3398 5.52581C19.137 3.70078 18.0724 2.4841 16.2981 2.12924C15.3855 1.92646 14.3716 1.92646 13.4591 1.92646C11.6341 1.87577 9.85976 1.87577 8.03473 1.92646C7.12222 1.92646 6.2097 1.97715 5.34788 2.12924C3.82702 2.38271 2.76243 3.24453 2.30617 4.76538C2.15408 5.27233 2.10339 5.77928 2.05269 6.28623C2.002 8.21264 2.002 10.139 2.002 12.0655C2.002 13.2821 2.05269 14.5495 2.15408 15.7662C2.30617 17.5912 3.42146 18.8586 5.2465 19.1627C6.159 19.3148 7.12222 19.3655 8.08543 19.3655C9.85976 19.4162 11.6341 19.3655 13.4591 19.3655C14.2703 19.3655 15.0814 19.3148 15.8925 19.2134C16.6529 19.1627 17.3627 18.9093 17.971 18.4023C18.9849 17.5912 19.3398 16.5266 19.3905 15.3099C19.4919 13.7891 19.4919 12.1668 19.5426 10.4939Z" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M16.2471 10.6962C16.2471 13.7379 13.8137 16.1712 10.772 16.1712C7.73025 16.1712 5.29688 13.7379 5.29688 10.6455C5.29688 7.65453 7.78094 5.22119 10.8227 5.22119C13.8137 5.22119 16.2471 7.65453 16.2471 10.6962ZM10.7719 14.2448C12.6983 14.2448 14.3205 12.6226 14.3205 10.6962C14.3205 8.76976 12.6983 7.14752 10.7719 7.14752C8.79474 7.14752 7.22318 8.76976 7.22318 10.6962C7.17248 12.6226 8.79474 14.2448 10.7719 14.2448Z" />
+                <path
+                  d="M17.7184 4.96758C17.7184 5.67731 17.1607 6.28566 16.451 6.28566C15.7413 6.28566 15.1329 5.67731 15.1836 4.96758C15.1836 4.25785 15.7413 3.7002 16.451 3.7002C17.1607 3.7002 17.7184 4.25784 17.7184 4.96758Z" />
+              </svg>
+          </li>
+          <li class="footer__item-social">
+            <a href="#" class="footer__link-social">
+              <svg alt="Linkedin" width="22" height="21" viewBox="0 0 22 21" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M21.633 12.4811V20.3602H17.032V12.9987C17.032 11.1583 16.3994 9.89304 14.7315 9.89304C13.4663 9.89304 12.7186 10.7557 12.3735 11.5609C12.2585 11.8484 12.201 12.251 12.201 12.6536V20.3602H7.60001C7.60001 20.3602 7.65752 7.88013 7.60001 6.61487H12.201V8.57027C12.201 8.57027 12.201 8.62777 12.1435 8.62777H12.201V8.57027C12.8336 7.65008 13.8689 6.26979 16.3419 6.26979C19.3325 6.26979 21.633 8.28271 21.633 12.4811ZM2.88347 0.000976562C1.33063 0.000976562 0.29541 1.03619 0.29541 2.35897C0.29541 3.68174 1.27312 4.71697 2.82595 4.71697H2.88347C4.49381 4.71697 5.47152 3.68175 5.47152 2.35897C5.41401 1.03619 4.4363 0.000976562 2.88347 0.000976562ZM0.526056 20.3602H5.06954V6.61489H0.526056V20.3602Z" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item-social">
+            <a href="#" class="footer__link-social">
+              <svg width="11" alt="Facebook" height="22" viewBox="0 0 11 22" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M9.95256 10.6695H6.97166V21.338H2.52644V12.415V10.6695H0.43457V6.90414H2.52644V4.4462C2.52644 2.72041 3.36319 0.000976562 6.97166 0.000976562H10.2663V3.66174H7.913C7.54692 3.66174 6.97166 3.87094 6.97166 4.70768V6.90414H10.3186L9.95256 10.6695Z" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item-social">
+            <a href="#" class="footer__link-social">
+              <svg width="22" alt="Twitter" height="19" viewBox="0 0 22 19" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M21.6159 2.82596C20.8126 3.1774 20.0093 3.42842 19.1056 3.52883C20.0093 2.97658 20.7122 2.1231 21.0134 1.11901C20.1599 1.62106 19.2061 1.97249 18.2522 2.1733C17.4489 1.31982 16.2942 0.767578 15.039 0.767578C12.6292 0.767578 10.6712 2.72555 10.6712 5.13537C10.6712 5.48681 10.7214 5.83823 10.7716 6.13947C7.10668 5.93865 3.89356 4.23169 1.73475 1.57085C1.33311 2.22351 1.13229 2.97658 1.13229 3.77985C1.13229 5.28599 1.88536 6.64151 3.09028 7.44478C2.38741 7.44478 1.68455 7.24397 1.08208 6.89253V6.94273C1.08208 9.05133 2.58823 10.8587 4.59643 11.2603C4.24499 11.3607 3.84336 11.4109 3.44171 11.4109C3.14049 11.4109 2.88946 11.3607 2.63844 11.3105C3.19069 13.0677 4.79725 14.3228 6.75524 14.373C5.24909 15.5277 3.39151 16.2306 1.33311 16.2306C0.981677 16.2306 0.630245 16.2306 0.278809 16.1804C2.2368 17.4355 4.49602 18.1383 7.00626 18.1383C15.0893 18.1383 19.4571 11.4611 19.4571 5.68762C19.4571 5.48681 19.4571 5.28599 19.4571 5.13537C20.3106 4.48272 21.0636 3.67944 21.6159 2.82596Z" />
+              </svg></a>
+          </li>
+        </ul>
+      </div>
+      <ul class="footer__list-second list-reset flex">
+        <li class="footer__item">
+          <a href="#" class="footer__link">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Term & Conditions</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">About Us</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__bottom flex">
+      <div class="footer__copy">© 2023 EATLY All Rights Reserved.</div>
+      <ul class="footer__list-social list-reset flex">
+        <li class="footer__item-social">
+          <a href="#" class="footer__link-social">
+            <svg width="22" alt="Instagram" height="22" viewBox="0 0 22 22" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M10.7721 0C12.1916 0.0506994 13.6618 0.0506994 15.0812 0.101392C16.3486 0.152085 17.5146 0.354867 18.6299 1.0139C20.0494 1.87572 20.9112 3.14309 21.2154 4.76533C21.3674 5.72853 21.4181 6.74243 21.4688 7.70564C21.5195 9.83483 21.4688 11.964 21.4688 14.0932C21.4688 15.2085 21.4181 16.3238 21.0633 17.3884C20.3535 19.4669 18.8834 20.7342 16.7542 21.1398C15.791 21.3426 14.7771 21.3426 13.8139 21.3933C11.6846 21.444 9.60615 21.3933 7.47694 21.3933C6.36165 21.3933 5.24635 21.3426 4.18176 20.9877C2.10325 20.278 0.835867 18.8078 0.430303 16.6786C0.227525 15.7154 0.227525 14.7015 0.176829 13.7383C0.126131 11.6091 0.176829 9.47996 0.176829 7.35077C0.176829 6.23549 0.227525 5.1202 0.582391 4.05559C1.29213 1.9771 2.76229 0.709734 4.89148 0.304173C5.8547 0.101399 6.8686 0.101399 7.83181 0.0506994C8.79502 0 9.75823 0 10.7721 0ZM19.5426 10.4939C19.4919 10.4939 19.5426 10.4939 19.5426 10.4939C19.4919 9.6321 19.4919 8.82097 19.4919 7.95916C19.4919 7.14805 19.4412 6.33692 19.3398 5.52581C19.137 3.70078 18.0724 2.4841 16.2981 2.12924C15.3855 1.92646 14.3716 1.92646 13.4591 1.92646C11.6341 1.87577 9.85976 1.87577 8.03473 1.92646C7.12222 1.92646 6.2097 1.97715 5.34788 2.12924C3.82702 2.38271 2.76243 3.24453 2.30617 4.76538C2.15408 5.27233 2.10339 5.77928 2.05269 6.28623C2.002 8.21264 2.002 10.139 2.002 12.0655C2.002 13.2821 2.05269 14.5495 2.15408 15.7662C2.30617 17.5912 3.42146 18.8586 5.2465 19.1627C6.159 19.3148 7.12222 19.3655 8.08543 19.3655C9.85976 19.4162 11.6341 19.3655 13.4591 19.3655C14.2703 19.3655 15.0814 19.3148 15.8925 19.2134C16.6529 19.1627 17.3627 18.9093 17.971 18.4023C18.9849 17.5912 19.3398 16.5266 19.3905 15.3099C19.4919 13.7891 19.4919 12.1668 19.5426 10.4939Z" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.2471 10.6962C16.2471 13.7379 13.8137 16.1712 10.772 16.1712C7.73025 16.1712 5.29688 13.7379 5.29688 10.6455C5.29688 7.65453 7.78094 5.22119 10.8227 5.22119C13.8137 5.22119 16.2471 7.65453 16.2471 10.6962ZM10.7719 14.2448C12.6983 14.2448 14.3205 12.6226 14.3205 10.6962C14.3205 8.76976 12.6983 7.14752 10.7719 7.14752C8.79474 7.14752 7.22318 8.76976 7.22318 10.6962C7.17248 12.6226 8.79474 14.2448 10.7719 14.2448Z" />
+              <path
+                d="M17.7184 4.96758C17.7184 5.67731 17.1607 6.28566 16.451 6.28566C15.7413 6.28566 15.1329 5.67731 15.1836 4.96758C15.1836 4.25785 15.7413 3.7002 16.451 3.7002C17.1607 3.7002 17.7184 4.25784 17.7184 4.96758Z" />
+            </svg>
+          </a>
+        </li>
+        <li class="footer__item-social">
+          <a href="#" class="footer__link-social">
+            <svg alt="Linkedin" width="22" height="21" viewBox="0 0 22 21" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M21.633 12.4811V20.3602H17.032V12.9987C17.032 11.1583 16.3994 9.89304 14.7315 9.89304C13.4663 9.89304 12.7186 10.7557 12.3735 11.5609C12.2585 11.8484 12.201 12.251 12.201 12.6536V20.3602H7.60001C7.60001 20.3602 7.65752 7.88013 7.60001 6.61487H12.201V8.57027C12.201 8.57027 12.201 8.62777 12.1435 8.62777H12.201V8.57027C12.8336 7.65008 13.8689 6.26979 16.3419 6.26979C19.3325 6.26979 21.633 8.28271 21.633 12.4811ZM2.88347 0.000976562C1.33063 0.000976562 0.29541 1.03619 0.29541 2.35897C0.29541 3.68174 1.27312 4.71697 2.82595 4.71697H2.88347C4.49381 4.71697 5.47152 3.68175 5.47152 2.35897C5.41401 1.03619 4.4363 0.000976562 2.88347 0.000976562ZM0.526056 20.3602H5.06954V6.61489H0.526056V20.3602Z" />
+            </svg>
+          </a>
+        </li>
+        <li class="footer__item-social">
+          <a href="#" class="footer__link-social">
+            <svg width="11" alt="Facebook" height="22" viewBox="0 0 11 22" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M9.95256 10.6695H6.97166V21.338H2.52644V12.415V10.6695H0.43457V6.90414H2.52644V4.4462C2.52644 2.72041 3.36319 0.000976562 6.97166 0.000976562H10.2663V3.66174H7.913C7.54692 3.66174 6.97166 3.87094 6.97166 4.70768V6.90414H10.3186L9.95256 10.6695Z" />
+            </svg>
+          </a>
+        </li>
+        <li class="footer__item-social">
+          <a href="#" class="footer__link-social">
+            <svg width="22" alt="Twitter" height="19" viewBox="0 0 22 19" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M21.6159 2.82596C20.8126 3.1774 20.0093 3.42842 19.1056 3.52883C20.0093 2.97658 20.7122 2.1231 21.0134 1.11901C20.1599 1.62106 19.2061 1.97249 18.2522 2.1733C17.4489 1.31982 16.2942 0.767578 15.039 0.767578C12.6292 0.767578 10.6712 2.72555 10.6712 5.13537C10.6712 5.48681 10.7214 5.83823 10.7716 6.13947C7.10668 5.93865 3.89356 4.23169 1.73475 1.57085C1.33311 2.22351 1.13229 2.97658 1.13229 3.77985C1.13229 5.28599 1.88536 6.64151 3.09028 7.44478C2.38741 7.44478 1.68455 7.24397 1.08208 6.89253V6.94273C1.08208 9.05133 2.58823 10.8587 4.59643 11.2603C4.24499 11.3607 3.84336 11.4109 3.44171 11.4109C3.14049 11.4109 2.88946 11.3607 2.63844 11.3105C3.19069 13.0677 4.79725 14.3228 6.75524 14.373C5.24909 15.5277 3.39151 16.2306 1.33311 16.2306C0.981677 16.2306 0.630245 16.2306 0.278809 16.1804C2.2368 17.4355 4.49602 18.1383 7.00626 18.1383C15.0893 18.1383 19.4571 11.4611 19.4571 5.68762C19.4571 5.48681 19.4571 5.28599 19.4571 5.13537C20.3106 4.48272 21.0636 3.67944 21.6159 2.82596Z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+  </div>
+</body>
+
+</html>
