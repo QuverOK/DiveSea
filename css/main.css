@@ -5412,6 +5412,9 @@ a {
     display: none;
   }
 }
+.table-stats__btn {
+  cursor: pointer;
+}
 .table-stats__button-more {
   padding-top: 50px;
   width: 152px;
