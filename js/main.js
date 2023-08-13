@@ -13,10 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_components_accordeon__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_components_accordeon__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_show_more__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/show-more */ "./src/js/components/show-more.js");
 /* harmony import */ var _components_choice__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/choice */ "./src/js/components/choice.js");
-/* harmony import */ var _components_download__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/download */ "./src/js/components/download.js");
-/* harmony import */ var _components_download__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_download__WEBPACK_IMPORTED_MODULE_3__);
 console.log('---Components----');
-
 
 
 
@@ -352,16 +349,6 @@ function customChoice() {
     itemSelectText: ''
   });
 }
-
-/***/ }),
-
-/***/ "./src/js/components/download.js":
-/*!***************************************!*\
-  !*** ./src/js/components/download.js ***!
-  \***************************************/
-/***/ (() => {
-
-
 
 /***/ }),
 

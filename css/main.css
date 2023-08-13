@@ -635,7 +635,7 @@ a {
   -ms-flex-direction: column;
   flex-direction: column;
 }
-.content-modal__label {
+.content-modal__wrapper {
   position: relative;
   margin-bottom: 13px;
 }
@@ -4621,7 +4621,7 @@ a {
     max-height: 413px;
   }
 }
-.form-sell__label {
+.form-sell__wrapper {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -4629,10 +4629,14 @@ a {
   margin-bottom: 35px;
   width: 100%;
 }
-.form-sell__label:last-child {
+.form-sell__wrapper:last-child {
   margin: 0;
 }
-.form-sell__label span {
+.form-sell__wrapper--right {
+  width: 40%;
+}
+.form-sell__name {
+  display: block;
   margin-bottom: 20px;
   color: #000;
   font-family: var(--font-poppins);
@@ -4640,10 +4644,8 @@ a {
   font-weight: 500;
   line-height: 124.5%;
 }
-.form-sell__label-right {
-  width: 40%;
-}
 .form-sell__buttons {
+  display: block;
   position: relative;
 }
 .form-sell__container-top {
@@ -4671,7 +4673,7 @@ a {
   position: absolute;
   z-index: -1;
 }
-.form-sell__label-file {
+.form-sell__wrapper--file {
   width: 80%;
 }
 .form-sell__input {
@@ -4727,34 +4729,34 @@ a {
   top: 18px;
   right: 20px;
 }
-.form-sell__sel {
-  position: relative;
+.form-sell__wrapper--def {
+  display: block;
 }
-.form-sell__sel .choices[data-type*=select-one]:after {
+.form-sell__wrapper--def .choices[data-type*=select-one]:after {
   -webkit-transition: margin-top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: margin-top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, margin-top 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, margin-top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
-.form-sell__sel .choices[data-type*=select-one].is-open:after {
+.form-sell__wrapper--def .choices[data-type*=select-one].is-open:after {
   margin-top: -8px;
   border: none;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-.form-sell__sel .choices[data-type*=select-one] .choices__inner {
+.form-sell__wrapper--def .choices[data-type*=select-one] .choices__inner {
   padding: 0px 0px 0px 21px;
 }
-.form-sell__sel .choices.focus-visible {
+.form-sell__wrapper--def .choices.focus-visible {
   border: 1px solid #000;
   border-radius: 12.332px;
 }
-.form-sell__sel .choices {
+.form-sell__wrapper--def .choices {
   width: 100%;
   height: 62.5px;
 }
-.form-sell__sel .choices::after {
+.form-sell__wrapper--def .choices::after {
   border: none;
   background: url("../img/sell/choice.svg") 0 -2px no-repeat;
   background-size: 10px;
@@ -4763,7 +4765,7 @@ a {
   right: 23px;
   top: 50%;
 }
-.form-sell__sel .choices__list--single {
+.form-sell__wrapper--def .choices__list--single {
   padding: 0;
   height: 100%;
   display: -webkit-box;
@@ -4776,7 +4778,7 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
 }
-.form-sell__sel .choices__inner {
+.form-sell__wrapper--def .choices__inner {
   height: 100%;
   border-radius: 12.332px;
   background: #EFEFEF;
@@ -4787,34 +4789,34 @@ a {
   font-weight: 400;
   letter-spacing: -0.269px;
 }
-.form-sell__sel-first {
+.form-sell__wrapper--def-first {
   position: relative;
   border-radius: 11.526px;
 }
-.form-sell__sel-first .choices[data-type*=select-one]:after {
+.form-sell__wrapper--def-first .choices[data-type*=select-one]:after {
   -webkit-transition: margin-top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: margin-top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, margin-top 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, margin-top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
-.form-sell__sel-first .choices[data-type*=select-one].is-open:after {
+.form-sell__wrapper--def-first .choices[data-type*=select-one].is-open:after {
   margin-top: -8px;
   border: none;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-.form-sell__sel-first .choices.focus-visible {
+.form-sell__wrapper--def-first .choices.focus-visible {
   border: 1px solid #000;
   border-radius: 11.526px;
 }
-.form-sell__sel-first .choices {
+.form-sell__wrapper--def-first .choices {
   position: absolute;
   top: 5%;
   left: 1%;
   height: 95%;
 }
-.form-sell__sel-first .choices::after {
+.form-sell__wrapper--def-first .choices::after {
   border: none;
   background: url("../img/sell/choice.svg") 0 -2px no-repeat;
   background-size: 10px;
@@ -4823,10 +4825,10 @@ a {
   right: 23px;
   top: 50%;
 }
-.form-sell__sel-first .choices__list--dropdown {
+.form-sell__wrapper--def-first .choices__list--dropdown {
   word-break: normal;
 }
-.form-sell__sel-first .choices__list--single {
+.form-sell__wrapper--def-first .choices__list--single {
   padding: 0;
   height: 100%;
   display: -webkit-box;
@@ -4839,7 +4841,7 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
 }
-.form-sell__sel-first .choices__inner {
+.form-sell__wrapper--def-first .choices__inner {
   position: relative;
   top: 17.5%;
   left: 0;
@@ -4881,6 +4883,7 @@ a {
   margin-bottom: 110px;
 }
 .form-sell__title {
+  display: block;
   margin: 0;
   margin-bottom: 12px;
   color: #000;
@@ -4890,6 +4893,7 @@ a {
   line-height: 124.5%;
 }
 .form-sell__descr {
+  display: block;
   margin: 0;
   color: #9596A6;
   font-family: var(--font-poppins);
@@ -4942,7 +4946,8 @@ a {
   transition: 0.4s;
   border-radius: 50%;
 }
-.form-sell__span-btn {
+.form-sell__span--btn {
+  display: block;
   width: 100%;
   color: var(--white, #FFF);
   font-family: var(--font-poppins);
