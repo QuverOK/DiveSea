@@ -7,4 +7,4 @@
 
 Многостраничный сайт с использованием Flex layout, Grid layout, табов, бургера, свайперов, таблиц, форм, аккордеона. Присутствует адаптивность и отзывчивость.
 
-[Смотреть здесь](https://quverok.github.io/DiveSea/)
+[Смотреть здесь](https://quverok-frilance-divesea.netlify.app)
